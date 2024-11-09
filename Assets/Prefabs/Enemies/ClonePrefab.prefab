@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 948247519368844738}
   - component: {fileID: 3773479111711626245}
   m_Layer: 0
-  m_Name: Robot Prefab
+  m_Name: ClonePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,10 +223,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Agent: {fileID: 948247519368844739}
+  enemyGraphic: {fileID: 948247519215704207}
   detectableRange: {fileID: 7171376284947277501}
   muzzleFlash: {fileID: 3387942507893809082}
+  enemyColors:
+  - Type: 0
+    Color: {r: 0, g: 0.19605827, b: 1, a: 0}
   bloodStain: {fileID: 2531642671473160316, guid: efa600927a40a5547a583186d52428d4, type: 3}
-  enemyGraphic: {fileID: 948247519215704207}
 --- !u!135 &3773479111711626245
 SphereCollider:
   m_ObjectHideFlags: 0
